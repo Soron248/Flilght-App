@@ -1,6 +1,11 @@
 import React from "react";
-
-const Home = () => {
+import {
+  useGetAllFlightsDataQuery,
+  useGetSingleFlightDataQuery,
+} from "../features/flightsApiSlice";
+const Home: React.FC = () => {
+  const { data } = useGetSingleFlightDataQuery(70);
+  console.log(data);
   return <div>Home</div>;
 };
 
