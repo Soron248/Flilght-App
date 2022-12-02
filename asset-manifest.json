@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Flilght-App/static/css/main.f2b61476.css",
+    "main.js": "/Flilght-App/static/js/main.8e1c458e.js",
+    "index.html": "/Flilght-App/index.html",
+    "main.f2b61476.css.map": "/Flilght-App/static/css/main.f2b61476.css.map",
+    "main.8e1c458e.js.map": "/Flilght-App/static/js/main.8e1c458e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b61476.css",
+    "static/js/main.8e1c458e.js"
+  ]
+}
