@@ -4,6 +4,7 @@ import { Input } from "antd";
 import ListGroup from "react-bootstrap/ListGroup";
 import { useGetAllFlightsDataQuery } from "../features/flightsApiSlice";
 import { Link } from "react-router-dom";
+import { Select } from "antd";
 
 const Home: React.FC = () => {
   const {
@@ -40,6 +41,25 @@ const Home: React.FC = () => {
           boxShadow: "1px 1px 5px gray",
         }}
         onChange={handleSearch}
+      />
+      <Select
+        showSearch
+        placeholder="Select a filter"
+        optionFilterProp="children"
+        options={[
+          {
+            value: "launch_date",
+            label: "Launch Date",
+          },
+          {
+            value: "launch_status",
+            label: "Launch Status",
+          },
+          {
+            value: "upcoming",
+            label: "Upcoming",
+          },
+        ]}
       />
       {filteredFlight && (
         <div
