@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
 import store from "./app/store";
 import { flightsApi } from "./features/flightsApiSlice";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

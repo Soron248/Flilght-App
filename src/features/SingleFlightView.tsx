@@ -1,6 +1,6 @@
 import React from "react";
 
-const SingleFlightView = () => {
+const SingleFlightView: React.FC = () => {
   return <div>SingleFlightView</div>;
 };
 
